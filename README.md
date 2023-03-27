@@ -136,7 +136,11 @@ appsrc 构建str,即输出格式`video/x-raw,format=BGR , width=1920, height=108
   作用：将`FLV`格式的视频流推送到`RTMP`服务器。  
   输入：`FLV`视频流  
   输出：无  
-
+## **工具**
+- ***gst-launch-1.0***  
+  可以快速构建管道，测试管道是否可行。
+- ***gst-inspect-1.0***  
+  可以查看元素的作用及其输入输出。
 ## **Q&A**
 
 1. **报错` Internal data stream error`**  
